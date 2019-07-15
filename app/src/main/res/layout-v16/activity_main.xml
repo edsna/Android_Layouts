@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:layout_weight=""/>
+
+    <TextView
+        android:text="Create,"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:fontFamily="cursive"
+        android:background="#0000FF"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+    <TextView
+        android:text="Innovate,"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:padding="10dp"
+        android:fontFamily="cursive"
+        android:background="#0000FF"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:text="Build,"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:padding="10dp"
+        android:fontFamily="cursive"
+        android:textColor="@android:color/white"
+        android:textSize="50sp"
+        android:background="#0000FF" />
+    <TextView
+        android:text="Build it ,"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:padding="10dp"
+        android:fontFamily="cursive"
+        android:background="#0000FF" />
+    <TextView
+        android:text="Build it bigger,"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:padding="10dp"
+        android:fontFamily="cursive"
+        android:background="#0000FF" />
+    <TextView
+        android:text="Build it yourself!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textColor="@android:color/white"
+        android:textSize="34sp"
+        android:padding="10dp"
+        android:fontFamily="cursive"
+        android:background="#0000FF" />
+
+</LinearLayout>

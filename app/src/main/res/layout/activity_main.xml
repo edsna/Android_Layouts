@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:src="@drawable/it"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+
+    <TextView
+        android:text="Happy Birthday!"
+        android:layout_width="match_parent"
+        android:textColor="@android:color/white"
+        android:textSize="52sp"
+        android:background="#0000FF"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:background="#0000FF"
+        android:gravity="center"
+        android:text="All the best"
+        android:textColor="@android:color/white"
+        android:textSize="34sp" />
+
+</LinearLayout>
