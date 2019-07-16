@@ -14,7 +14,7 @@
         android:layout_weight=""/>
 
     <TextView
-        android:text="Create,"
+        android:text="Innovate,"
         android:layout_width="match_parent"
         android:textColor="@android:color/white"
         android:textSize="50sp"
@@ -23,8 +23,9 @@
         android:background="#0000FF"
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
+
     <TextView
-        android:text="Innovate,"
+        android:text="Create,"
         android:layout_width="match_parent"
         android:textColor="@android:color/white"
         android:textSize="50sp"
